@@ -1,0 +1,16 @@
+server:
+    port: 8081
+spring:
+    application:
+        name: crypto
+    data:
+        mongodb:
+            database: cryptodb
+            host: 0.0.0.0
+            password: root
+            port: 27017
+            uri: mongodb://root:root@localhost:27017/cryptodb?authSource=admin
+            username: root
+bot:
+    name: "CryptoBot"
+    token: "6712106788:AAEasOTXOnuTrYTfavt-vT5FQxWkWlrtZy4"
